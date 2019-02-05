@@ -701,6 +701,7 @@ namespace MHSEC_G
                 read_item_mappings(Properties.Resources.idmap);
                 read_gene_mapping(Properties.Resources.gene);
             }
+            endif
         }
 
         private static void read_item_mappings(string src)
