@@ -648,8 +648,8 @@ namespace MHSEC_G
                 //
                 _MONSTER_NULL_TEMPLATE = Properties.Resources.monster_null_template_NA;
 
-                _OFFSETA_MONSTER_PARTY = 0x49B7C;
-                _OFFSETR_MONSTER_UID = 0x50;
+                _OFFSETA_MONSTER_PARTY = 0x86FA4;
+                _OFFSETR_MONSTER_UID = 0x70;
                 _LIMIT_MONSTER_EXP = 0xFFFFFF;
                 _SIZE_MONSTER = 0x4C0;
                 _OFFSETA_MONSTER = 0xA4A4;
