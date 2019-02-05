@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,7 +15,8 @@ namespace MHSEC_G
         public enum Version
         {
             JPN,
-            USA
+            USA,
+            ANDROID
         };
 
         private static Version _VER;
@@ -26,6 +27,7 @@ namespace MHSEC_G
         //
         public const uint SAVE_FILE_SIZE_JPN = 483976;
         public const uint SAVE_FILE_SIZE_NA = 535736;
+        public const uint SAVE_FILE_SIZE_ANDROID = 789392;
 
         //
         // Genes
@@ -453,7 +455,7 @@ namespace MHSEC_G
                 read_item_mappings(Properties.Resources.idmap);
                 read_gene_mapping(Properties.Resources.gene_JPN);
             }
-            else
+            else if (save.Length == SAVE_FILE_SIZE_USA
             {
                 _VER = Version.USA;
                 //
@@ -567,6 +569,129 @@ namespace MHSEC_G
                 //
                 _OFFSETA_WEAPON_START = 0x3A74;
                 _OFFSETA_WEAPON_END = 0x5693;
+                _OFFSETR_WEAPON_EQUIPPED = 0x11;
+                _SIZE_WEAPON = 0x24;
+                _OFFSETR_CLASS = 0x0;
+                _OFFSETR_ID = 0x2;
+                _OFFSETR_LEVEL = 0x4;
+
+                read_item_mappings(Properties.Resources.idmap);
+                read_gene_mapping(Properties.Resources.gene);
+            }
+            else
+            {
+                _VER = Version.ANDROID
+                //
+                // Armors droid
+                //
+                _OFFSETA_ARM = 0x5958;
+                _SIZE_ARM = 0x24;
+                _OFFSETR_ARM_ID = 0x2;
+                _OFFSETR_ARM_LEVEL = 0x4;
+                _OFFSETR_ARM_14h = 0x14;
+                _OFFSETR_ARM_18h = 0x18;
+                _OFFSETR_ARM_1C = 0x1c;
+                _OFFSETA_ARM_END = 0x7577;
+                _OFFSETR_ARM_TYPE = 0x0;
+                _OFFSETR_ARM_EQUIPPED = 0x11;
+
+                //
+                // Character droid
+                //
+                _OFFSETA_CHAR_NAME = 0xA0E4;
+                _LENGTH_CHAR_NAME = 10;
+                _OFFSETA_CHAR_MONEY = 0x9C314;
+                _OFFSETA_CHAR_EXP = 0xA1BC;
+                _OFFSETA_CHAR_LEVEL = 0xA1B8;
+                _LIMIT_LEVEL = 99;
+                _LIMIT_MONEY = 9999999;
+                _LIMIT_EXP = 25165822;
+
+                //
+                // Egg droid
+                //
+                _OFFSETA_EGG_START = 0x94EA8;
+                _OFFSETA_EGG_END = 0x9557F;
+                _OFFSETR_EGG_GENE = 0x30;
+                _SIZE_EGG_GENE = 0x2;
+                _SIZE_EGG = 0x80;
+                _OFFSETR_SPE = 0x0;
+                _OFFSETR_WGT = 0x2E;
+
+                //
+                // Eggfragments droid
+                //
+                _OFFSETA_EGG_FRAGMENTS = 0x9AD4;
+                _OFFSETA_EGG_FRAGMENTS_END = 0x9F83;
+                _SIZE_EGG_FRAGMENT = 0xC;
+                _OFFSETR_EF_SPE = 0x0;
+                _OFFSETR_EF_POS = 0x1;
+                _OFFSETR_EF_NEW = 0x2;
+                _OFFSETR_EF_RAR = 0x3;
+                _OFFSETR_EF_COL = 0x4;
+                _OFFSETR_EF_DLC = 0x5;
+                _OFFSETR_EF_6H = 0x6;
+                _OFFSETR_EF_7H = 0x7;
+
+                //
+                // Items droid
+                //
+                _OFFSETA_ITEM_BOX = 0x70;
+                _SIZE_ITEM = 0x8;
+                _OFFSETR_ITEM_ID = 0x0;
+                _OFFSETR_ITEM_COUNT = 0x2;
+                _OFFSETA_ITEM_BOX_END = 0x2F47;
+                _OFFSETA_FIRST_KEY_ITEM = 0x1810;
+
+                //
+                // Monsters droid
+                //
+                _MONSTER_NULL_TEMPLATE = Properties.Resources.monster_null_template_NA;
+
+                _OFFSETA_MONSTER_PARTY = 0x49B7C--;
+                _OFFSETR_MONSTER_UID = 0x50;
+                _LIMIT_MONSTER_EXP = 0xFFFFFF;
+                _SIZE_MONSTER = 0x4C0;
+                _OFFSETA_MONSTER = 0xA4A4;
+                _LIMIT_MONSTER_LEVEL = 99;
+                _OFFSETR_MONSTER_NAME = 0;
+                _LIMIT_MONSTER_NAME = 20;
+                _OFFSETA_MONSTE_END = 0x86FA3;
+                _SIZE_MONSTER_GENE = 0x4;
+
+                _OFFSETR_MONSTER_GENE = 0x444 + 0x28;
+                _OFFSETR_MONSTER_EXP = 0x100 + 0x28;
+                _OFFSETR_MONSTER_HIV = 0xF8 + 0x28;
+                _OFFSETR_MONSTER_AIV = 0xF9 + 0x28;
+                _OFFSETR_MONSTER_DIV = 0xFA + 0x28;
+                _OFFSETR_MONSTER_HPU = 0xF4 + 0x28;
+                _OFFSETR_MONSTER_APU = 0xF5 + 0x28;
+                _OFFSETR_MONSTER_DPU = 0xF6 + 0x28;
+                _OFFSETR_MONSTER_SKILL = 0x58 + 0x28;
+                _OFFSETR_MONSTER_LEVEL = 0x7C + 0x28;
+                _OFFSETR_MONSTER_SPE = 0x50 + 0x28;
+                _OFFSETR_MONSTER_ATK = 0x68 + 0x28;
+                _OFFSETR_MONSTER_HP = 0x66 + 0x28;
+                _OFFSETR_MONSTER_DEF = 0x6A + 0x28;
+
+                //
+                // Talismans droid
+                //
+                _OFFSETA_TALI = 0x7554--;
+                _OFFSETA_TALI_END = 0x9AD3--;
+                _SIZE_TALI = 0x30;
+                _OFFSETR_TALI_RARITY = 0x24;
+                _OFFSETR_TALI_NEW = 0x12;
+                _OFFSETR_TALI_SKILL1 = 0x28;
+                _OFFSETR_TALI_SKILL2 = 0x2A;
+                _OFFSETR_TALI_ID = 0x2;
+                _OFFSETR_TALI_EQUIPPED = 0x11;
+
+                //
+                // Weapons droid
+                //
+                _OFFSETA_WEAPON_START = 0x3D14;
+                _OFFSETA_WEAPON_END = 0x5957;
                 _OFFSETR_WEAPON_EQUIPPED = 0x11;
                 _SIZE_WEAPON = 0x24;
                 _OFFSETR_CLASS = 0x0;
