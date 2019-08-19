@@ -27,7 +27,6 @@ namespace MHSEC_G.Properties {
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
@@ -163,49 +162,22 @@ namespace MHSEC_G.Properties {
         ///   Looks up a localized string similar to 10	1	薬草
         ///18	2	回復薬
         ///20	3	回復薬グレート
-        ///28	4	回復の粉
-        ///30	5	生命の粉塵
-        ///38	6	生命の大粉塵
-        ///40	7	秘薬
-        ///48	16	気合のカタマリ
-        ///50	9	活力剤
-        ///58	8	いにしえの秘薬
-        ///60	A	げどく草
-        ///68	B	解毒薬
-        ///70	C	アロエ草
-        ///78	D	やけど薬
-        ///80	E	マヒワリの花
-        ///88	F	マヒなおし薬
-        ///90	10	トウガラシ
-        ///98	11	元気ドリンコ
-        ///A0	12	多肉ニンニク
-        ///A8	13	熱血サプリ
-        ///B0	14	シャボン菜
-        ///B8	15	爆破落とし洗剤
-        ///C0	18	メニーベリー
-        ///C8	19	目薬
-        ///D0	1A	万能ウチケシ薬
-        ///D8	AE	コゲ肉
-        ///E0	AF	生焼け肉
-        ///E8	B0	こんがり肉
-        ///F0	B1	マッスルミート
-        ///F8	B2	タフネスミート
-        ///100	B3	クイックミート
-        ///108	B4	こんがり肉Ｇ
-        ///110	1D	ハンタードーナツ
-        ///118	1F	ロア・ル・リング
-        ///120	20	バルドーナツ
-        ///128	21	ドスドーナツ
-        ///130	24	ギルドーナツ
-        ///138	25	アイルーシュガー
-        ///140	26	メラルーシ [rest of string was truncated]&quot;;.
+        ///[rest of string was truncated]&quot;;.
         /// </summary>
         internal static string idmap {
             get {
                 return ResourceManager.GetString("idmap", resourceCulture);
             }
         }
-        
+
+        internal static string idmapdroid
+        {
+            get
+            {
+                return ResourceManager.GetString("idmapdroid", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
@@ -232,6 +204,18 @@ namespace MHSEC_G.Properties {
         internal static byte[] monster_null_template_NA {
             get {
                 object obj = ResourceManager.GetObject("monster_null_template_NA", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] monster_null_template_ANDROID
+        {
+            get
+            {
+                object obj = ResourceManager.GetObject("monster_null_template_ANDROID", resourceCulture);
                 return ((byte[])(obj));
             }
         }

@@ -1,0 +1,750 @@
+﻿70	1	Herb
+78	2	Potion
+80	3	Mega Potion
+88	4	Lifesoot
+90	5	Lifepowder
+98	6	Dust of Life
+A0	7	Max Potion
+A8	16	Vital Essence
+B0	9	Immunizer
+B8	8	Ancient Potion
+C0	A	Antidote herb
+C8	B	Antidote
+D0	C	Aloe Leaf
+D8	D	Burn Ointment
+E0	E	Anesfreesia
+E8	F	Anti-para Potion
+F0	10	Hot Pepper
+F8	11	Energy Drink
+100	12	Girthy Garlic
+108	13	Zest Pill
+110	14	Soapgrass
+118	15	Blast-Be-Gone
+120	18	Manyberry
+128	19	Eye Drops
+130	1A	Nullberry ElixIr
+138	AE	Burnt Meat
+140	AF	Rare Steak
+148	B0	Well-done Steak
+150	B1	Muscle Meat
+158	B2	Toughness Meat
+160	B3	Quickness Meat
+168	B4	Gourmet Steak
+170	1D	Hunter Donut
+178	1F	Royal Donut
+180	20	Val Habar Donut
+188	21	Drome Donut
+190	24	Guild Donut
+198	25	Sugarpaw Donut
+1A0	26	Chocopaw Donut
+1A8	27	Well-done Donut
+1B0	59F	@ Pudding
+1B8	1B	Cool Mist
+1C0	1C	Hot Mist
+1C8	C6	Raw Meat Sushi
+1D0	C7	Dragon Noodles
+1D8	C8	Extra-fresh Sushi
+1E0	C9	Shroom and Larva
+1E8	CA	Tonguemato Salad
+1F0	CB	Rock Salt Tuna
+1F8	CC	Spicy Meatballs
+200	CD	Stone-roasted Fish
+208	CE	Frozen Mushroom
+210	CF	Queenly Paella
+218	D0	Kingly Steak
+220	D1	Ancient Panacea
+228	9F	Vitality Nutrient
+230	A0	Strength Nutrient
+238	A1	Defense Nutrient
+240	A5	Reverse Nutrient
+248	28	Might Seed
+250	2A	Adamant Seed
+258	2C	Quickfoot Seed
+260	29	Demondrug
+268	2B	Armorskin
+270	2D	Fleetfoot Potion
+278	2E	Whetstone
+280	2F	Super Whetstone
+288	4F	Surrogate Gem
+290	50	Moxie Gem
+298	76	Flash Bomb
+2A0	77	Sonic Bomb
+2A8	81	Stone
+2B0	7B	Throwing Knife
+2B8	78	Poison Knife
+2C0	79	Paralysis Knife
+2C8	7A	Sleep Knife
+2D0	8C	Paintball
+2D8	8D	Smoke Bomb
+2E0	8E	Binoculars
+2E8	1FE	Trap Tool
+2F0	8F	Pitfall Trap
+2F8	90	Shock Trap
+300	91	Tranq Trap
+308	202	Large Barrel
+310	92	Big Barrel Bomb
+318	9E	Paw Pass Permit
+320	9D	Paw Pass Ticket
+328	1B1	Training Charm
+330	1B2	Tracking Charm
+338	1B3	Gathering Charm
+340	1B4	Lucky Charm
+348	1B5	Finding Charm
+350	1B6	Mounting Charm
+358	1B7	Selling Charm
+360	1B8	Buying Charm
+368	1B9	Adamant Charm
+370	1BA	Might Charm
+378	1BB	Recovery Charm
+380	1C2	Training Charm+
+388	1C3	Fortuitous Charm
+390	297	H. crystal (Pure)
+398	298	H. crystal (Fire)
+3A0	299	H. crystal (Water)
+3A8	29A	H. crystal (Thunder)
+3B0	29B	H. crystal (Ice)
+3B8	29C	H. crystal (Dragon)
+3C0	125	耐火の小珠
+3C8	126	耐火の珠
+3D0	127	耐水の小珠
+3D8	128	耐水の珠
+3E0	129	耐氷の小珠
+3E8	12A	耐氷の珠
+3F0	12B	耐雷の小珠
+3F8	12C	耐雷の珠
+400	12D	耐龍の小珠
+408	12E	耐龍の珠
+410	12F	耐全の小珠
+418	130	耐全の珠
+420	131	火炎の小珠
+428	132	火炎の珠
+430	133	流水の小珠
+438	134	流水の珠
+440	135	氷結の小珠
+448	136	氷結の珠
+450	137	雷光の小珠
+458	138	雷光の珠
+460	139	破龍の小珠
+468	13A	破龍の珠
+470	13B	全属の小珠
+478	13C	全属の珠
+480	13D	攻剛の小珠
+488	13E	攻剛の珠
+490	13F	攻速の小珠
+498	140	攻速の珠
+4A0	141	攻技の小珠
+4A8	142	攻技の珠
+4B0	143	耐剛の小珠
+4B8	144	耐剛の珠
+4C0	145	耐速の小珠
+4C8	146	耐速の珠
+4D0	147	耐技の小珠
+4D8	148	耐技の珠
+4E0	149	回避の小珠
+4E8	14A	回避の珠
+4F0	14B	会心の小珠
+4F8	14C	会心の珠
+500	14D	攻撃の小珠
+508	14E	攻撃の珠
+510	14F	防御の小珠
+518	150	防御の珠
+520	153	体力の小珠
+528	154	体力の珠
+530	155	晩成雷の珠
+538	156	続異の珠
+540	157	火鱗の珠
+548	158	水鱗の珠
+550	159	氷鱗の珠
+558	15A	龍圧の珠
+560	15B	根性の珠
+568	116	草食種の目覚め
+570	117	鳥竜種の目覚め
+578	118	飛竜種の目覚め
+580	119	牙獣種の目覚め
+588	11A	獣竜種の目覚め
+590	11B	牙竜種の目覚め
+598	11C	海竜種の目覚め
+5A0	11D	鋏角種の目覚め
+5A8	11E	両生種の目覚め
+5B0	11F	古龍種の目覚め
+5B8	120	魚竜種の目覚め
+5C0	121	全種の目覚め
+5C8	1CF	熟成マタタビ
+5D0	4A4	きれいな腹袋
+5D8	1F0	黒真珠
+5E0	1D0	マタタビコイン
+5E8	1F2	ドスマタタビ
+5F0	1D1	特産キノコ
+5F8	1EF	銀色コオロギ
+600	1D2	黄金石のかけら
+608	1D3	小金魚
+610	1D4	雪花
+618	1D5	血石
+620	1D6	錦魚
+628	1D7	古代豆
+630	1DA	熱帯イチゴ
+638	1DB	竜骨結晶
+640	1DC	キングサボテン
+648	1DF	ロイヤルカブト
+650	1D8	ロイヤルハニー
+658	1DD	白銀の糸
+660	1DE	さびた破片
+668	1E3	ゴッドカブト
+670	1E2	火山椒の実
+678	1E0	燃石炭
+680	1E1	黄金骨
+688	1E4	ドスマツタケ
+690	1D9	ベニサンゴ
+698	1EB	金色コオロギ
+6A0	1E5	黄金魚
+6A8	1E7	オーロラ草
+6B0	1E6	ダイヤダスト
+6B8	1E8	永久凍骨
+6C0	1EA	厳選キノコ
+6C8	1EE	百年くるみ
+6D0	4B8	輝く腹袋
+6D8	1ED	花香石の塊
+6E0	1EC	太古のコイン
+6E8	1E9	黄金石の塊
+6F0	1F3	古文書の切れ端
+6F8	1F4	迷宮踏破の印章
+700	1F1	ビンの王冠
+708	2E9	ちぎれたクサリ
+710	2EA	プロトバイザー
+718	2EB	さびた首輪
+720	2EC	マネルガーメイル
+728	2ED	黒金のプロテクタ
+730	2EE	なぞの水晶
+738	2EF	ハイメタ甲冑
+740	2F0	超合金アーマー
+748	2F1	天上天下無双甲
+750	2F2	澄んだ小粒ナミダ
+758	2F3	清らかなナミダ
+760	2F4	清澄な大粒ナミダ
+768	210	ウォーミル麦
+770	22A	シモフリトマト
+778	23D	キングトリュフ
+780	23E	ウツクシメジ
+788	253	ハニーバター
+790	254	ツチハチノコ
+798	265	スパイスワーム
+7A0	266	米虫
+7A8	283	彗星岩塩
+7B0	2AF	サシミウオ
+7B8	2B0	女王エビ
+7C0	2B3	マグロザメ
+7C8	2C5	生肉
+7D0	2C6	ポポノタン
+7D8	4AB	竜ガラ
+7E0	20F	ネンチャク草
+7E8	20E	ツタの葉
+7F0	20D	火薬草
+7F8	211	落陽草の花
+800	212	サボテンの花
+808	252	ハチミツ
+810	23A	アオキノコ
+818	23C	ニトロダケ
+820	23F	毒テングダケ
+828	23B	マンドラゴラ
+830	229	ペイントの実
+838	227	ウチケシの実
+840	228	龍殺しの実
+848	A8	ペピポパンプキン
+850	280	氷結晶
+858	279	鉄鉱石
+860	27A	大地の結晶
+868	27B	シーブライト鉱石
+870	27C	マカライト鉱石
+878	284	ライトクリスタル
+880	27D	ドラグライト鉱石
+888	27E	フルクライト鉱石
+890	285	ベアライト石
+898	282	アイシスメタル
+8A0	27F	紅蓮石
+8A8	281	ノヴァクリスタル
+8B0	286	カブレライト鉱石
+8B8	287	ユニオン鉱石
+8C0	288	獄炎石
+8C8	2B1	キレアジ
+8D0	2B2	眠魚
+8D8	2B4	カジキマグロ
+8E0	269	クモの巣
+8E8	25F	にが虫
+8F0	261	光蟲
+8F8	260	不死虫
+900	263	雷光虫
+908	264	虫の死骸
+910	26A	セッチャクロアリ
+918	262	キラビートル
+920	26B	ドスヘラクレス
+928	267	王族カナブン
+930	268	マレコガネ
+938	2D1	竜の爪牙
+940	48E	獣骨
+948	48C	竜骨【小】
+950	48D	竜骨【中】
+958	4A8	竜骨【大】
+960	4A9	上竜骨
+968	4AA	いにしえの龍骨
+970	2E7	竜石
+978	2E8	竜玉
+980	2D3	鳴き袋
+988	2D5	毒袋
+990	2D6	猛毒袋
+998	2D7	マヒ袋
+9A0	2D8	強力マヒ袋
+9A8	2D9	睡眠袋
+9B0	2DA	昏睡袋
+9B8	2DB	爆破袋
+9C0	2DC	大爆破袋
+9C8	2DD	火炎袋
+9D0	2DE	爆炎袋
+9D8	2DF	水袋
+9E0	2E0	大水袋
+9E8	2E3	氷結袋
+9F0	2E4	凍結袋
+9F8	2E1	電気袋
+A00	2E2	電撃袋
+A08	2E5	封龍核
+A10	2E6	滅龍核
+A18	4C1	古龍の血
+A20	4AC	ケルビの角
+A28	492	アプトノスの尻尾
+A30	493	ポポの毛皮
+A38	4AD	アプケロスの甲殻
+A40	491	垂皮竜の皮
+A48	4AF	草食種の堅骨
+A50	4A7	丸鳥の羽
+A58	4BB	丸鳥の青色羽
+A60	4A2	奇面族のお宝
+A68	4B7	奇面族の秘宝
+A70	4A6	肉球のスタンプ
+A78	4BA	タルの蓋
+A80	49B	盾虫の甲殻
+A88	499	飛甲虫の甲殻
+A90	49A	ランゴスタの羽
+A98	4A3	甲虫の腹袋
+AA0	4B4	甲虫種の堅殻
+AA8	48F	モンスターの体液
+AB0	4C0	モンスターの濃汁
+AB8	4BC	雷光エキス
+AC0	4BD	雷光ゼリー
+AC8	4BE	龍光エキス
+AD0	4BF	龍光ゼリー
+AD8	4A0	ランポスの鱗
+AE0	49D	ゲネポスの鱗
+AE8	49C	イーオスの鱗
+AF0	49E	ジャギィの鱗
+AF8	49F	バギィの鱗
+B00	4B5	鳥竜種の上鱗
+B08	34D	ランポスの大皮
+B10	34E	ランポスの大爪
+B18	34F	ドスランポスの頭
+B20	350	ランポスの上皮
+B28	351	ランポスの尖爪
+B30	352	ドスランポスの体
+B38	33B	ゲネポスの大皮
+B40	33C	ゲネポスの大牙
+B48	33D	ドスゲネポスの頭
+B50	33E	ゲネポスの上皮
+B58	33F	ゲネポスの鋭牙
+B60	340	ドスゲネポスの体
+B68	341	イーオスの大皮
+B70	342	イーオスの紫鱗
+B78	343	ドスイーオスの頭
+B80	344	イーオスの上皮
+B88	345	イーオスの上紫鱗
+B90	346	ドスイーオスの体
+B98	347	狗竜の皮
+BA0	348	狗竜の爪
+BA8	349	王者のエリマキ
+BB0	34A	狗竜の上皮
+BB8	34B	狗竜の尖爪
+BC0	34C	狗竜の頭
+BC8	40D	眠狗竜の皮
+BD0	40E	眠狗竜の爪
+BD8	40F	王者のトサカ
+BE0	410	眠狗竜の上皮
+BE8	411	眠狗竜の尖爪
+BF0	412	眠狗竜の頭
+BF8	314	怪鳥の鱗
+C00	315	怪鳥の翼膜
+C08	316	巨大なクチバシ
+C10	317	怪鳥の上鱗
+C18	318	怪鳥の翼
+C20	319	立派なクチバシ
+C28	31A	青怪鳥の鱗
+C30	31B	青怪鳥の甲殻
+C38	31C	青怪鳥の耳
+C40	31D	青怪鳥の上鱗
+C48	31E	青怪鳥の堅殻
+C50	31F	青怪鳥の地獄耳
+C58	320	ゴム質の皮
+C60	321	毒怪鳥の翼膜
+C68	322	毒怪鳥の頭
+C70	323	ゴム質の上皮
+C78	324	毒怪鳥の翼
+C80	325	毒怪鳥の石頭
+C88	326	ゴム質の紫皮
+C90	327	紫毒鳥の翼膜
+C98	328	ゴム質の紫尾
+CA0	329	ゴム質の紫上皮
+CA8	32A	紫毒鳥の翼
+CB0	32B	ゴム質の紫上尾
+CB8	437	彩鳥の鱗
+CC0	438	彩鳥の羽根
+CC8	439	へんなクチバシ
+CD0	43A	彩鳥の上鱗
+CD8	43B	彩鳥の翼
+CE0	43C	ステキなクチバシ
+CE8	43D	紅彩鳥の鱗
+CF0	43E	紅彩鳥の羽根
+CF8	43F	ド派手な尾羽根
+D00	440	紅彩鳥の上鱗
+D08	441	紅彩鳥の翼
+D10	442	ペコペコラッパ
+D18	377	黒狼鳥の鱗
+D20	378	黒狼鳥の耳
+D28	379	尖ったクチバシ
+D30	37A	黒狼鳥の上鱗
+D38	37B	黒狼鳥の地獄耳
+D40	37C	イカしたクチバシ
+D48	449	青熊獣の毛
+D50	44A	青熊獣の甲殻
+D58	44B	青熊獣の腕甲
+D60	44C	青熊獣の剛毛
+D68	44D	青熊獣の堅殻
+D70	44E	青熊獣の堅腕甲
+D78	3BF	白兎獣の毛
+D80	3C0	白兎獣の腹甲
+D88	3C1	白兎獣の耳
+D90	3C2	白兎獣の剛毛
+D98	3C3	白兎獣の堅腹甲
+DA0	3C4	白兎獣の大耳
+DA8	496	ファンゴの毛皮
+DB0	495	コンガの毛
+DB8	4B1	牙獣種の剛毛
+DC0	443	大猪の皮
+DC8	444	大猪の牙
+DD0	445	大猪の骨
+DD8	446	大猪の硬い皮
+DE0	447	大猪のねじれた牙
+DE8	448	大猪の頭骨
+DF0	353	桃毛獣の毛
+DF8	354	桃毛獣の爪
+E00	355	極彩色の毛
+E08	356	桃毛獣の剛毛
+E10	357	桃毛獣の尖爪
+E18	358	極彩色の剛毛
+E20	359	緑毛獣の毛
+E28	35A	緑毛獣の爪
+E30	35B	緑毛獣の尻尾
+E38	35C	緑毛獣の剛毛
+E40	35D	緑毛獣の尖爪
+E48	35E	緑毛獣の上尾
+E50	365	奇猿狐の毛
+E58	366	奇猿狐の長骨
+E60	367	奇猿狐の耳
+E68	368	奇猿狐の剛毛
+E70	369	奇猿狐の堅長骨
+E78	36A	奇猿狐の大耳
+E80	3D7	白猿狐の毛
+E88	3D8	白猿狐の長骨
+E90	3D9	白猿狐の耳
+E98	3DA	白猿狐の剛毛
+EA0	3DB	白猿狐の堅長骨
+EA8	3DC	白猿狐の大耳
+EB0	35F	金獅子の黒毛
+EB8	360	金獅子の角
+EC0	361	黄金の毛
+EC8	362	金獅子の怒髪
+ED0	363	金獅子の尖角
+ED8	364	金獅子の闘魂
+EE0	490	スクアギルの鱗
+EE8	4AE	スクアギルの上鱗
+EF0	36B	化け鮫の皮
+EF8	36C	化け鮫のヒレ
+F00	36D	化け鮫の刃尾
+F08	36E	化け鮫の上皮
+F10	36F	化け鮫の上ヒレ
+F18	370	化け鮫の上刃尾
+F20	371	影蜘蛛の甲殻
+F28	372	影蜘蛛の鋏角
+F30	373	影蜘蛛の棘
+F38	374	影蜘蛛の堅殻
+F40	375	影蜘蛛の堅鋏角
+F48	376	影蜘蛛の上棘
+F50	3DD	骸蜘蛛の甲殻
+F58	3DE	骸蜘蛛の鋏角
+F60	3DF	骸蜘蛛の爪
+F68	3E0	骸蜘蛛の堅殻
+F70	3E1	骸蜘蛛の堅鋏角
+F78	3E2	骸蜘蛛の尖爪
+F80	498	ヤオザミの小殻
+F88	4B3	ヤオザミの小堅殻
+F90	401	盾蟹の甲殻
+F98	402	盾蟹の爪
+FA0	403	ヤド真珠
+FA8	404	盾蟹の堅殻
+FB0	405	盾蟹の尖爪
+FB8	406	極上ヤド真珠
+FC0	407	紫盾蟹の甲殻
+FC8	408	紫盾蟹の爪
+FD0	409	紫盾蟹の触角
+FD8	40A	紫盾蟹の堅殻
+FE0	40B	紫盾蟹の尖爪
+FE8	40C	紫盾蟹の尖触角
+FF0	494	ルドロスの皮
+FF8	4B0	ルドロスの上皮
+1000	413	水獣の鱗
+1008	414	水獣の尻尾
+1010	415	水獣のトサカ
+1018	416	水獣の上鱗
+1020	417	水獣の上尾
+1028	418	高級なトサカ
+1030	419	紫水獣の鱗
+1038	41A	紫水獣の爪
+1040	41B	海綿質の紫皮
+1048	41C	紫水獣の上鱗
+1050	41D	紫水獣の鋭爪
+1058	41E	海綿質の紫上皮
+1060	4A5	溶岩獣の鱗
+1068	4B9	溶岩獣の上鱗
+1070	461	炎戈竜の甲殻
+1078	462	炎戈竜の爪
+1080	463	炎戈竜の碇口
+1088	464	炎戈竜の堅殻
+1090	465	炎戈竜の鋭爪
+1098	466	炎戈竜の大碇口
+10A0	467	凍戈竜の甲殻
+10A8	468	凍戈竜の爪
+10B0	469	凍戈竜の碇口
+10B8	46A	凍戈竜の堅殻
+10C0	46B	凍戈竜の鋭爪
+10C8	46C	凍戈竜の大碇口
+10D0	455	海竜の鱗
+10D8	456	海竜の角
+10E0	457	海竜の背電殻
+10E8	458	海竜の上鱗
+10F0	459	海竜の尖角
+10F8	45A	海竜の高電殻
+1100	45B	白海竜の鱗
+1108	45C	白海竜の角
+1110	45D	白海竜の背電殻
+1118	45E	白海竜の上鱗
+1120	45F	白海竜の尖角
+1128	460	白海竜の高電殻
+1130	497	ガレオスの小鱗
+1138	4B2	ガレオスの小上鱗
+1140	3FB	砂竜の鱗
+1148	3FC	砂竜の牙
+1150	3FD	砂竜のヒレ
+1158	3FE	砂竜の上鱗
+1160	3FF	砂竜の鋭牙
+1168	400	砂竜の上ヒレ
+1170	46D	水竜の鱗
+1178	46F	水竜のヒレ
+1180	473	翠水竜の鱗
+1188	475	翠水竜のヒレ
+1190	4A1	翼蛇竜の皮
+1198	4B6	翼蛇竜の上皮
+11A0	38F	ブヨブヨした皮
+11A8	390	ブヨブヨした翼膜
+11B0	391	アルビノの中落ち
+11B8	392	真珠色の柔皮
+11C0	393	真珠色の翼
+11C8	394	アルビノの霜降り
+11D0	395	魅惑色の皮
+11D8	396	魅惑色の翼膜
+11E0	397	魅惑色の唇
+11E8	398	魅惑色の柔皮
+11F0	399	魅惑色の翼
+11F8	39A	魅惑色の厚唇
+1200	2F6	雌火竜の甲殻
+1208	2F7	雌火竜の棘
+1210	2F8	雌火竜の逆鱗
+1218	2F9	雌火竜の堅殻
+1220	2FA	雌火竜の上棘
+1228	2FB	雌火竜の紅玉
+1230	2FC	桜火竜の甲殻
+1238	2FD	桜火竜の棘
+1240	2FE	桜火竜の逆鱗
+1248	2FF	桜火竜の堅殻
+1250	300	桜火竜の上棘
+1258	301	桜火竜の紅玉
+1260	302	金火竜の堅殻
+1268	303	金火竜の上棘
+1270	304	金火竜の紅玉
+1278	305	火竜の鱗
+1280	306	火竜の翼膜
+1288	307	火竜の逆鱗
+1290	308	火竜の上鱗
+1298	309	火竜の翼
+12A0	30A	火竜の紅玉
+12A8	30B	蒼火竜の鱗
+12B0	30C	蒼火竜の翼膜
+12B8	30D	蒼火竜の逆鱗
+12C0	30E	蒼火竜の上鱗
+12C8	30F	蒼火竜の翼
+12D0	310	蒼火竜の紅玉
+12D8	311	銀火竜の上鱗
+12E0	312	銀火竜の翼
+12E8	313	銀火竜の紅玉
+12F0	39B	岩竜の甲殻
+12F8	39C	岩竜の翼膜
+1300	39D	岩竜の涙
+1308	39E	岩竜の堅殻
+1310	39F	岩竜の翼
+1318	3A0	岩竜の双涙
+1320	3A1	桃岩竜の甲殻
+1328	3A2	桃岩竜の翼膜
+1330	3A3	桃岩竜の頭
+1338	3A4	桃岩竜の堅殻
+1340	3A5	桃岩竜の翼
+1348	3A6	桃岩竜の石頭
+1350	3A7	鎧竜の甲殻
+1358	3A8	鎧竜の頭殻
+1360	3A9	鎧竜の骨髄
+1368	3AA	鎧竜の堅殻
+1370	3AB	鎧竜の顎
+1378	3AC	鎧竜の延髄
+1380	3AD	黒鎧竜の甲殻
+1388	3AE	黒鎧竜の頭殻
+1390	3AF	黒鎧竜の骨髄
+1398	3B0	黒鎧竜の堅殻
+13A0	3B1	黒鎧竜の顎
+13A8	3B2	黒鎧竜の延髄
+13B0	3F2	一角竜の堅殻
+13B8	3F3	一角竜の堅甲
+13C0	3F4	上質な真紅の角
+13C8	3F8	白一角竜の堅殻
+13D0	3F9	白一角竜の堅甲
+13D8	3FA	上質な白銀の角
+13E0	3E3	角竜の甲殻
+13E8	3E4	角竜の尻尾
+13F0	3E5	ねじれた角
+13F8	3E6	角竜の堅殻
+1400	3E7	角竜の上尾
+1408	3E8	上質なねじれた角
+1410	3E9	Black Diablos Shell
+1418	3EA	Black Diablos Tail
+1420	3EB	Twstd B. Diab Hrn
+1428	3EC	B. Diablos Crpace
+1430	3ED	Black Diab Tail+
+1438	3EE	Black Twstd Horn
+1440	32C	Tigrex Scale
+1448	32D	Tigrex Claw
+1450	32E	Tigrex Scalp
+1458	32F	Tigrex Scale+
+1460	330	Tigrex Claw+
+1468	331	Tigrex Maw
+1470	332	Brute Tigrex Scale
+1478	333	Brute Tigrex Claw
+1480	334	Brute Tigrex Tail
+1488	335	B. Tigrex Scale+
+1490	336	Brute Tigrex Claw+
+1498	337	Brute tigrex Tail+
+14A0	338	M. Tigrex Scale+
+14A8	339	M. Tigrx Blastclaw
+14B0	33A	Pulsating Blsthrt
+14B8	47F	Nargacuga Scale
+14C0	480	Narga Blackfur
+14C8	481	Narga Cutwing
+14D0	482	Nargacuga Scale+
+14D8	483	Nargacuga Pelt+
+14E0	484	Nargacuga Razor
+14E8	485	Green Narga Scale
+14F0	486	G. Narga Mottlefur
+14F8	487	G. Narga Cutwing
+1500	488	G. Narga Scale+
+1508	489	G. Narg Mottlefur+
+1510	48A	G. Narga Cutwing+
+1518	42B	Barioth Shell
+1520	42C	Barioth Spike
+1528	42D	Amber Tusks
+1530	42E	Barioth Carapace
+1538	42F	Barioth Spike+
+1540	430	Amber Tusks+
+1548	431	Sand Barioth Shell
+1550	432	Sand Barioth Pelt
+1558	433	Indigo Tusks
+1560	434	S. Barioth Crpace
+1568	435	Sand Barioth Pelt+
+1570	436	Indigo Tusks+
+1578	3D4	Sereg Slavescale
+1580	3D5	Seregios Impaler
+1588	3D6	Seregios Dissenter
+1590	3C5	Zinogre Shell
+1598	3C6	Zinogre Shockfur
+15A0	3C7	Zinogre Plate
+15A8	3C8	Zinogre Carapace
+15B0	3C9	Zinogre Electrofur
+15B8	3CA	Zinogre Jasper
+15C0	3CB	S. Zinogre Shell
+15C8	3CC	S. Zinogre Claw
+15D0	3CD	S. Zinogre Plate
+15D8	3CE	S. Zinogre Crpace
+15E0	3CF	S. Zinogre Claw+
+15E8	3D0	S. Zinogr Umbrage
+15F0	41F	Barroth Shell
+15F8	420	Barroth Claw
+1600	421	Barroth Scalp
+1608	422	Barroth Carapace
+1610	423	Barroth Claw+
+1618	424	Barroth Scalp+
+1620	425	Jade Barroth Shell
+1628	426	Jade Barroth Claw
+1630	427	Jade Barroth Scalp
+1638	428	J. Barroth Crpace
+1640	429	J. Barroth Claw+
+1648	42A	J. Barroth Scalp+
+1650	44F	Uragaan Scale
+1658	450	Uragaan Shell
+1660	451	Uragaan Jaw
+1668	452	Uragaan Scale+
+1670	453	Uragaan Carapace
+1678	454	Uragaan Ruby
+1680	3B9	Brach Shell
+1688	3BA	Brach Hammer
+1690	3BB	Brach Marrow
+1698	3BC	Brach Carapace
+16A0	3BD	Brach Pounder
+16A8	3BE	Brach Gem
+16B0	3B3	Deviljho Scale
+16B8	3B4	Deviljho Fang
+16C0	3B5	Deviljho Talon
+16C8	3B6	Deviljho Blckscale
+16D0	3B7	Deviljho Tallfang
+16D8	3B8	Deviljho Gem
+16E0	386	Kirin Hide+
+16E8	387	Kirin Thundertail
+16F0	388	Kirin Azure Horn
+16F8	389	Kirin Blackhide
+1700	38A	Kirin Frost Tail
+1708	38B	Kirin Icehorn
+1710	37D	Daora Carapace
+1718	37E	Daora Horn+
+1720	37F	Daora Gem
+1728	380	Teostra Carapace
+1730	381	Teostra Mane
+1738	382	Teostra Gem
+1740	3D1	Fatalis Scale
+1748	3D2	Fatalis Crust
+1750	3D3	Fatalis Eye
+1758	A7	Recognition Letter
+1760	A6	Commendation
+1768	A9	Bronze Ticket
+1770	AA	Silver Ticket
+1778	AB	Gold Ticket
+1780	AC	Platinum Ticket
+1788	59E	Rustshard
+1798	580	Lock Gloves (?)
+17A0	582	Triforce
+17B0	584	Studio R Ticket
+17B8	586	Pirate J Ticket
+17C0	588	Famitsu Ticket
+17C8	589	Dengeki Ticket
+17D0	591	Fan Club Nwsletter
+17E0	58A	Odyssey Medal
+1800	58E	Duramboros Seal
+1808	58C	Plushie Voucher

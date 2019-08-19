@@ -1,9 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Resources;
-using System.Text;
 
 namespace MHSEC_G
 {
@@ -455,7 +452,7 @@ namespace MHSEC_G
                 read_item_mappings(Properties.Resources.idmap);
                 read_gene_mapping(Properties.Resources.gene_JPN);
             }
-            else if (save.Length == SAVE_FILE_SIZE_USA
+            if (save.Length == SAVE_FILE_SIZE_NA)
             {
                 _VER = Version.USA;
                 //
@@ -578,9 +575,9 @@ namespace MHSEC_G
                 read_item_mappings(Properties.Resources.idmap);
                 read_gene_mapping(Properties.Resources.gene);
             }
-            else
+            if (save.Length == SAVE_FILE_SIZE_ANDROID)
             {
-                _VER = Version.ANDROID
+                _VER = Version.ANDROID;
                 //
                 // Armors droid
                 //
@@ -646,7 +643,7 @@ namespace MHSEC_G
                 //
                 // Monsters droid
                 //
-                _MONSTER_NULL_TEMPLATE = Properties.Resources.monster_null_template_NA;
+                _MONSTER_NULL_TEMPLATE = Properties.Resources.monster_null_template_ANDROID;
 
                 _OFFSETA_MONSTER_PARTY = 0x86FA4;
                 _OFFSETR_MONSTER_UID = 0x70;
@@ -677,8 +674,8 @@ namespace MHSEC_G
                 //
                 // Talismans droid
                 //
-                _OFFSETA_TALI = 0x7554--;
-                _OFFSETA_TALI_END = 0x9AD3--;
+                _OFFSETA_TALI = 0x7554;
+                _OFFSETA_TALI_END = 0x9AD3;
                 _SIZE_TALI = 0x30;
                 _OFFSETR_TALI_RARITY = 0x24;
                 _OFFSETR_TALI_NEW = 0x12;
@@ -698,10 +695,14 @@ namespace MHSEC_G
                 _OFFSETR_ID = 0x2;
                 _OFFSETR_LEVEL = 0x4;
 
-                read_item_mappings(Properties.Resources.idmap);
+                read_item_mappings(Properties.Resources.idmapdroid);
                 read_gene_mapping(Properties.Resources.gene);
             }
-            endif
+        }
+
+        private static void read_item_mappings(object idmapdroid)
+        {
+            throw new NotImplementedException();
         }
 
         private static void read_item_mappings(string src)

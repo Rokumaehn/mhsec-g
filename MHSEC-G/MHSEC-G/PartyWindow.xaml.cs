@@ -48,37 +48,55 @@ namespace MHSEC_G
 
         public string mon1
         {
-            get => get_mon_by_id(0);
+            get
+            {
+                get_mon_by_id(0);
+            }
             set { set_mon_by_id(value, 0); }
         }
 
         public string mon2
         {
-            get => get_mon_by_id(1);
+            get
+            {
+                get_mon_by_id(1);
+            }
             set { set_mon_by_id(value, 1); }
         }
 
         public string mon3
         {
-            get => get_mon_by_id(2);
+            get
+            {
+                get_mon_by_id(2);
+            }
             set { set_mon_by_id(value, 2); }
         }
 
         public string mon4
         {
-            get => get_mon_by_id(3);
+            get
+            {
+                get_mon_by_id(3);
+            }
             set { set_mon_by_id(value, 3); }
         }
 
         public string mon5
         {
-            get => get_mon_by_id(4);
+            get
+            {
+                get_mon_by_id(4);
+            }
             set { set_mon_by_id(value, 4); }
         }
 
         public string mon6
         {
-            get => get_mon_by_id(5);
+            get
+            {
+                get_mon_by_id(5);
+            }
             set { set_mon_by_id(value, 5); }
         }
 

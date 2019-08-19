@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Dynamic;
-using System.IO;
-using System.Linq;
 using System.Windows;
-using MHSEC_G.Annotations;
 
 namespace MHSEC_G
 {
@@ -19,7 +14,10 @@ namespace MHSEC_G
 
         public string spe
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SPE]).ToString("X2");
+                get
+             {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SPE]).ToString("X2");
+            }
             set
             {
                 uint parsed;
@@ -38,7 +36,10 @@ namespace MHSEC_G
 
         public string uid
         {
-            get => Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_UID).ToString("X4");
+            get
+            {
+                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_UID).ToString("X4");
+            }
             set
             {
                 uint parsed;
@@ -58,7 +59,10 @@ namespace MHSEC_G
 
         public uint atk
         {
-            get => Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_ATK);
+            get
+            {
+                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_ATK);
+            }
             set
             {
                 if (value <= 0xFFFF)
@@ -76,7 +80,10 @@ namespace MHSEC_G
 
         public uint def
         {
-            get => Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_DEF);
+            get
+            {
+                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_DEF);
+            }
             set
             {
                 if (value <= 0xFFFF)
@@ -94,7 +101,10 @@ namespace MHSEC_G
 
         public uint hp
         {
-            get => Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_HP);
+            get
+            {
+                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_HP);
+            }
             set
             {
                 if (value <= 0xFFFF)
@@ -112,7 +122,10 @@ namespace MHSEC_G
 
         public uint hiv
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HIV]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HIV]);
+            }
             set
             {
                 if (value <= 0xFF)
@@ -129,7 +142,10 @@ namespace MHSEC_G
 
         public uint aiv
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_AIV]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_AIV]);
+            }
             set
             {
                 if (value <= 0xFF)
@@ -146,7 +162,10 @@ namespace MHSEC_G
 
         public uint div
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DIV]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DIV]);
+            }
             set
             {
                 if (value <= 0xFF)
@@ -163,7 +182,10 @@ namespace MHSEC_G
 
         public uint hpu
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HPU]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HPU]);
+            }
             set
             {
                 if (value <= 0xFF)
@@ -181,7 +203,10 @@ namespace MHSEC_G
 
         public uint apu
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_APU]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_APU]);
+            }
             set
             {
                 if (value <= 0xFF)
@@ -199,7 +224,10 @@ namespace MHSEC_G
 
         public uint dpu
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DPU]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DPU]);
+            }
             set
             {
                 if (value <= 0xFF)
@@ -217,7 +245,10 @@ namespace MHSEC_G
 
         public string name
         {
-            get => Helper.read_unicode_string(_data, _obj_offset + Offsets.OFFSETR_MONSTER_NAME, Offsets.LIMIT_MONSTER_NAME);
+            get
+            {
+                Helper.read_unicode_string(_data, _obj_offset + Offsets.OFFSETR_MONSTER_NAME, Offsets.LIMIT_MONSTER_NAME);
+            }
             set
             {
                 if (value.Length <= 10 && value.Length > 0)
@@ -236,7 +267,10 @@ namespace MHSEC_G
 
         public uint exp
         {
-            get => Helper.byte_to_uint32_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_EXP);
+            get
+            {
+                Helper.byte_to_uint32_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_EXP);
+            }
             set
             {
                 if (value <= Offsets.LIMIT_MONSTER_EXP)
@@ -254,7 +288,10 @@ namespace MHSEC_G
 
         public uint level
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_LEVEL]);
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_LEVEL]);
+            }
             set
             {
                 if (value <= Offsets.LIMIT_MONSTER_LEVEL)
@@ -272,7 +309,10 @@ namespace MHSEC_G
 
         public string skill1
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL]).ToString("X2");
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL]).ToString("X2");
+            }
             set
             {
                 uint parsed;
@@ -292,7 +332,10 @@ namespace MHSEC_G
 
         public string skill2
         {
-            get => Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL + 1]).ToString("X2");
+            get
+            {
+                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL + 1]).ToString("X2");
+            }
             set
             {
                 uint parsed;

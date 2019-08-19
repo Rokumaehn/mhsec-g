@@ -1,0 +1,9 @@
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\bin\Debug\MHSEC-G.exe.config
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\MHSEC-G.csprojResolveAssemblyReference.cache
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\GeneWindow.g.cs
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\MainWindow.g.cs
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\MonsterWindow.g.cs
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\PartyWindow.g.cs
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\App.g.cs
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\MHSEC-G_MarkupCompile.cache
+C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\MHSEC-G_MarkupCompile.lref

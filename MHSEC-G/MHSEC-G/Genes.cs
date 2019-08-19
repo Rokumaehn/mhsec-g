@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
-using MHSEC_G.Annotations;
 
 namespace MHSEC_G
 {
@@ -81,7 +76,10 @@ namespace MHSEC_G
 
         public int gene1_selected
         {
-            get => extract_gene_idx(0);
+            get
+            {
+                extract_gene_idx(0);
+            }
             set
             {
                 set_gene_idx(0, value);
@@ -92,7 +90,10 @@ namespace MHSEC_G
 
         public string gene1
         {
-            get => extract_gene(0).ToString("X4");
+            get
+            {
+                extract_gene(0).ToString("X4");
+            }
             set
             {
                 set_gene_str(0, value);
@@ -103,7 +104,10 @@ namespace MHSEC_G
 
         public int gene2_selected
         {
-            get => extract_gene_idx(1);
+            get
+            {
+                extract_gene_idx(1);
+            }
             set
             {
                 set_gene_idx(1, value);
@@ -114,7 +118,10 @@ namespace MHSEC_G
 
         public string gene2
         {
-            get => extract_gene(1).ToString("X4");
+            get
+            {
+                extract_gene(1).ToString("X4");
+            }
             set
             {
                 set_gene_str(1, value);
@@ -125,7 +132,10 @@ namespace MHSEC_G
 
         public int gene3_selected
         {
-            get => extract_gene_idx(2);
+            get
+            {
+                extract_gene_idx(2);
+            }
             set
             {
                 set_gene_idx(2, value);
@@ -137,7 +147,10 @@ namespace MHSEC_G
 
         public string gene3
         {
-            get => extract_gene(2).ToString("X4");
+            get
+            {
+                extract_gene(2).ToString("X4");
+            }
             set
             {
                 set_gene_str(2, value);
@@ -148,7 +161,10 @@ namespace MHSEC_G
 
         public int gene4_selected
         {
-            get => extract_gene_idx(3);
+            get
+            {
+                extract_gene_idx(3);
+            }
             set
             {
                 set_gene_idx(3, value);
@@ -160,7 +176,10 @@ namespace MHSEC_G
 
         public string gene4
         {
-            get => extract_gene(3).ToString("X4");
+            get
+            {
+                extract_gene(3).ToString("X4");
+            }
             set
             {
                 set_gene_str(3, value);
@@ -171,7 +190,10 @@ namespace MHSEC_G
 
         public int gene5_selected
         {
-            get => extract_gene_idx(4);
+            get
+            {
+                extract_gene_idx(4);
+            }
             set
             {
                 set_gene_idx(4, value);
@@ -183,7 +205,10 @@ namespace MHSEC_G
 
         public string gene5
         {
-            get => extract_gene(4).ToString("X4");
+            get
+            {
+                extract_gene(4).ToString("X4");
+            }
             set
             {
                 set_gene_str(4, value);
@@ -194,7 +219,10 @@ namespace MHSEC_G
 
         public int gene6_selected
         {
-            get => extract_gene_idx(5);
+            get
+            {
+                extract_gene_idx(5);
+            }
             set
             {
                 set_gene_idx(5, value);
@@ -206,7 +234,10 @@ namespace MHSEC_G
 
         public string gene6
         {
-            get => extract_gene(5).ToString("X4");
+            get
+            {
+                extract_gene(5).ToString("X4");
+            }
             set
             {
                 set_gene_str(5, value);
@@ -218,7 +249,10 @@ namespace MHSEC_G
 
         public int gene7_selected
         {
-            get => extract_gene_idx(6);
+            get
+            {
+                extract_gene_idx(6);
+            }
             set
             {
                 set_gene_idx(6, value);
@@ -230,7 +264,10 @@ namespace MHSEC_G
 
         public string gene7
         {
-            get => extract_gene(6).ToString("X4");
+            get
+            {
+                extract_gene(6).ToString("X4");
+            }
             set
             {
                 set_gene_str(6, value);
@@ -242,7 +279,10 @@ namespace MHSEC_G
 
         public int gene8_selected
         {
-            get => extract_gene_idx(7);
+            get
+            {
+                extract_gene_idx(7);
+            }
             set
             {
                 set_gene_idx(7, value);
@@ -254,7 +294,10 @@ namespace MHSEC_G
 
         public string gene8
         {
-            get => extract_gene(7).ToString("X4");
+            get
+            {
+                extract_gene(7).ToString("X4");
+            }
             set
             {
                 set_gene_str(7, value);
@@ -266,7 +309,10 @@ namespace MHSEC_G
 
         public int gene9_selected
         {
-            get => extract_gene_idx(8);
+            get
+            {
+                extract_gene_idx(8);
+            }
             set
             {
                 set_gene_idx(8, value);
@@ -277,7 +323,10 @@ namespace MHSEC_G
 
         public string gene9
         {
-            get => extract_gene(8).ToString("X4");
+            get
+            {
+                extract_gene(8).ToString("X4");
+            }
             set
             {
                 set_gene_str(8, value);
