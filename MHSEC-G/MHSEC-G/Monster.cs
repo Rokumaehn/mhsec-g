@@ -16,7 +16,7 @@ namespace MHSEC_G
         {
                 get
              {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SPE]).ToString("X2");
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SPE]).ToString("X2");
             }
             set
             {
@@ -38,7 +38,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_UID).ToString("X4");
+                return Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_UID).ToString("X4");
             }
             set
             {
@@ -61,7 +61,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_ATK);
+                return Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_ATK);
             }
             set
             {
@@ -82,7 +82,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_DEF);
+                return Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_DEF);
             }
             set
             {
@@ -103,7 +103,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_HP);
+                return Helper.byte_to_uint16_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_HP);
             }
             set
             {
@@ -124,7 +124,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HIV]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HIV]);
             }
             set
             {
@@ -144,7 +144,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_AIV]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_AIV]);
             }
             set
             {
@@ -164,7 +164,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DIV]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DIV]);
             }
             set
             {
@@ -184,7 +184,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HPU]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_HPU]);
             }
             set
             {
@@ -205,7 +205,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_APU]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_APU]);
             }
             set
             {
@@ -226,7 +226,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DPU]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_DPU]);
             }
             set
             {
@@ -247,7 +247,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.read_unicode_string(_data, _obj_offset + Offsets.OFFSETR_MONSTER_NAME, Offsets.LIMIT_MONSTER_NAME);
+                return Helper.read_unicode_string(_data, _obj_offset + Offsets.OFFSETR_MONSTER_NAME, Offsets.LIMIT_MONSTER_NAME);
             }
             set
             {
@@ -269,7 +269,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint32_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_EXP);
+                return Helper.byte_to_uint32_le(_data, _obj_offset + Offsets.OFFSETR_MONSTER_EXP);
             }
             set
             {
@@ -290,7 +290,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_LEVEL]);
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_LEVEL]);
             }
             set
             {
@@ -311,7 +311,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL]).ToString("X2");
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL]).ToString("X2");
             }
             set
             {
@@ -334,7 +334,7 @@ namespace MHSEC_G
         {
             get
             {
-                Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL + 1]).ToString("X2");
+                return Helper.byte_to_uint(_data[_obj_offset + Offsets.OFFSETR_MONSTER_SKILL + 1]).ToString("X2");
             }
             set
             {

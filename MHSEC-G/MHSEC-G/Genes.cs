@@ -78,7 +78,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(0);
+                return extract_gene_idx(0);
             }
             set
             {
@@ -92,7 +92,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(0).ToString("X4");
+                return extract_gene(0).ToString("X4");
             }
             set
             {
@@ -106,7 +106,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(1);
+                return extract_gene_idx(1);
             }
             set
             {
@@ -120,7 +120,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(1).ToString("X4");
+                return extract_gene(1).ToString("X4");
             }
             set
             {
@@ -134,7 +134,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(2);
+                return extract_gene_idx(2);
             }
             set
             {
@@ -149,7 +149,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(2).ToString("X4");
+                return extract_gene(2).ToString("X4");
             }
             set
             {
@@ -163,7 +163,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(3);
+                return extract_gene_idx(3);
             }
             set
             {
@@ -178,7 +178,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(3).ToString("X4");
+                return extract_gene(3).ToString("X4");
             }
             set
             {
@@ -192,7 +192,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(4);
+                return extract_gene_idx(4);
             }
             set
             {
@@ -207,7 +207,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(4).ToString("X4");
+                return extract_gene(4).ToString("X4");
             }
             set
             {
@@ -221,7 +221,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(5);
+                return extract_gene_idx(5);
             }
             set
             {
@@ -236,7 +236,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(5).ToString("X4");
+                return extract_gene(5).ToString("X4");
             }
             set
             {
@@ -251,7 +251,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(6);
+                return extract_gene_idx(6);
             }
             set
             {
@@ -266,7 +266,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(6).ToString("X4");
+                return extract_gene(6).ToString("X4");
             }
             set
             {
@@ -281,7 +281,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(7);
+                return extract_gene_idx(7);
             }
             set
             {
@@ -296,7 +296,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(7).ToString("X4");
+                return extract_gene(7).ToString("X4");
             }
             set
             {
@@ -311,7 +311,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene_idx(8);
+                return extract_gene_idx(8);
             }
             set
             {
@@ -325,7 +325,7 @@ namespace MHSEC_G
         {
             get
             {
-                extract_gene(8).ToString("X4");
+                return extract_gene(8).ToString("X4");
             }
             set
             {
