@@ -84,6 +84,7 @@
     <Compile Include="Armor.cs" />
     <Compile Include="BugCheck.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="Crypt.cs" />
     <Compile Include="Egg.cs" />
     <Compile Include="EggFragment.cs" />
     <Compile Include="Genes.cs" />

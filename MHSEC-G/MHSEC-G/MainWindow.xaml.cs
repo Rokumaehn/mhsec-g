@@ -43,7 +43,7 @@ namespace MHSEC_G
             if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 byte[] buffer = File.ReadAllBytes(dialog.FileName);
-                if (buffer.Length != Offsets.SAVE_FILE_SIZE_JPN && buffer.Length != Offsets.SAVE_FILE_SIZE_NA)
+                if (buffer.Length != Offsets.SAVE_FILE_SIZE_JPN && buffer.Length != Offsets.SAVE_FILE_SIZE_NA && buffer.Length != Offsets.SAVE_FILE_SIZE_ANDROID)
                 {
                     System.Windows.Forms.MessageBox.Show(
                         "Unsupported save file!",
@@ -58,9 +58,13 @@ namespace MHSEC_G
                     {
                         label_save_ver.Content = "JPN";
                     }
-                    else
+                    else if (Offsets.VER == Offsets.Version.USA)
                     {
                         label_save_ver.Content = "EUR/USA";
+                    }
+                    else
+                    {
+                        label_save_ver.Content = "ANDROID";
                     }
                     init(buffer);
                     OnPropertyChanged(null);
@@ -114,6 +118,8 @@ namespace MHSEC_G
             dialog.FileName = "mhr_game0.sav";
             if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
+                if (_model.Length == Offsets.SAVE_FILE_SIZE_ANDROID)
+                    _model = Crypt.Rehash(_model);
                 File.WriteAllBytes(dialog.FileName, _model);
                 MessageBox.Show("Saved to \"" + dialog.FileName + "\"", "MHSEC-G", MessageBoxButton.OK,
                     MessageBoxImage.Information);

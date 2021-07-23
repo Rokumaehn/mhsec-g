@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\obj\Debug\
+C:\Users\Chris\Source\Repos\Rokumaehn\mhsec-g\MHSEC-G\MHSEC-G\obj\Debug\
 MHSEC_G
 none
 false
-CODE_ANALYSIS;DEBUG;TRACE
-C:\Users\INDATA\Desktop\src\mhsec-g-master\MHSEC-G\MHSEC-G\App.xaml
+DEBUG;TRACE
+C:\Users\Chris\Source\Repos\Rokumaehn\mhsec-g\MHSEC-G\MHSEC-G\App.xaml
 4570082504
 
-221236242759
+23-103213336
 141881241103
 GeneWindow.xaml;MainWindow.xaml;MonsterWindow.xaml;PartyWindow.xaml;
 
-True
+False
 

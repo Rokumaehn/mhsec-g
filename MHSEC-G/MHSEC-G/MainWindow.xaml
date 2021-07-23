@@ -262,8 +262,8 @@
         </TabControl>
         <Button x:Name="button_save" Content="Save" HorizontalAlignment="Left" Margin="10,10,0,0"
                 VerticalAlignment="Top" Width="74" Click="button_save_Click" />
-        <Button x:Name="button_load" Content="Load" HorizontalAlignment="Left" Margin="90,10,0,0"
-                VerticalAlignment="Top" Width="74" Click="button_load_click" />
+        <Button x:Name="button_load" Content="Load" HorizontalAlignment="Left" Margin="90,0,0,389.5"
+                VerticalAlignment="Bottom" Width="74" Click="button_load_click" />
         <Button x:Name="button_about" Content="About" HorizontalAlignment="Left" Margin="379,10,0,0" VerticalAlignment="Top" Width="74" Click="button_about_Click"/>
         <Label x:Name="label_save_ver_cap" Content="Save Version:" HorizontalAlignment="Left" Margin="164,7,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label_save_ver" Content="No save loaded" HorizontalAlignment="Left" Margin="235,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.237,0.519" FontWeight="Bold"/>

@@ -19,7 +19,7 @@ namespace MHSEC_G.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -27,6 +27,7 @@ namespace MHSEC_G.Properties {
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
@@ -86,7 +87,7 @@ namespace MHSEC_G.Properties {
         ///0004	Popo Gene
         ///0005	Apceros Gene
         ///0006	Yian Kut-Ku Gene
-        ///0007	B. Yian Kut-Kue Gene
+        ///0007	B. Yian Kut-Kue GeneASD
         ///0008	Gypceros Gene
         ///0009	P. Gypceros Gene
         ///000A	Yian Garuga Gene
@@ -104,7 +105,7 @@ namespace MHSEC_G.Properties {
         ///0016	Nargacuga Gene
         ///0017	G. Nargacuga Gene
         ///0018	Rathian Gene
-        ///0019	Pink Rathian Gen [rest of string was truncated]&quot;;.
+        ///0019	Pink Rathian  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string gene {
             get {
@@ -159,25 +160,78 @@ namespace MHSEC_G.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10	1	薬草
-        ///18	2	回復薬
-        ///20	3	回復薬グレート
-        ///[rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to 10	1	Herb
+        ///18	2	Potion
+        ///20	3	Mega Potion
+        ///28	4	Lifesoot
+        ///30	5	Lifepowder
+        ///38	6	Dust of Life
+        ///40	7	Max Potion
+        ///48	16	Vital Essence
+        ///50	9	Immunizer
+        ///58	8	Ancient Potion
+        ///60	A	Antidote herb
+        ///68	B	Antidote
+        ///70	C	Aloe Leaf
+        ///78	D	Burn Ointment
+        ///80	E	Anesfreesia
+        ///88	F	Anti-para Potion
+        ///90	10	Hot Pepper
+        ///98	11	Energy Drink
+        ///A0	12	Girthy Garlic
+        ///A8	13	Zest Pill
+        ///B0	14	Soapgrass
+        ///B8	15	Blast-Be-Gone
+        ///C0	18	Manyberry
+        ///C8	19	Eye Drops
+        ///D0	1A	Nullberry ElixIr
+        ///D8	AE	Burnt Meat
+        ///E0	AF	Rare Steak
+        ///E8	B0	Well-done Steak
+        ///F [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string idmap {
             get {
                 return ResourceManager.GetString("idmap", resourceCulture);
             }
         }
-
-        internal static string idmapdroid
-        {
-            get
-            {
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 70	1	Herb
+        ///78	2	Potion
+        ///80	3	Mega Potion
+        ///88	4	Lifesoot
+        ///90	5	Lifepowder
+        ///98	6	Dust of Life
+        ///A0	7	Max Potion
+        ///A8	16	Vital Essence
+        ///B0	9	Immunizer
+        ///B8	8	Ancient Potion
+        ///C0	A	Antidote herb
+        ///C8	B	Antidote
+        ///D0	C	Aloe Leaf
+        ///D8	D	Burn Ointment
+        ///E0	E	Anesfreesia
+        ///E8	F	Anti-para Potion
+        ///F0	10	Hot Pepper
+        ///F8	11	Energy Drink
+        ///100	12	Girthy Garlic
+        ///108	13	Zest Pill
+        ///110	14	Soapgrass
+        ///118	15	Blast-Be-Gone
+        ///120	18	Manyberry
+        ///128	19	Eye Drops
+        ///130	1A	Nullberry ElixIr
+        ///138	AE	Burnt Meat
+        ///140	AF	Rare Steak
+        ///148	B0	Well-don [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string idmapdroid {
+            get {
                 return ResourceManager.GetString("idmapdroid", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
@@ -185,6 +239,16 @@ namespace MHSEC_G.Properties {
             get {
                 object obj = ResourceManager.GetObject("MainIcon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] monster_null_template_ANDROID {
+            get {
+                object obj = ResourceManager.GetObject("monster_null_template_ANDROID", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
@@ -204,18 +268,6 @@ namespace MHSEC_G.Properties {
         internal static byte[] monster_null_template_NA {
             get {
                 object obj = ResourceManager.GetObject("monster_null_template_NA", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] monster_null_template_ANDROID
-        {
-            get
-            {
-                object obj = ResourceManager.GetObject("monster_null_template_ANDROID", resourceCulture);
                 return ((byte[])(obj));
             }
         }
