@@ -21,6 +21,7 @@ namespace MHSEC_G
                 checksum = sha1.ComputeHash(fileData);
             }
 
+            // swap endianess
             for (int i = 0; i < 5; i++)
             {
                 byte tmp;
