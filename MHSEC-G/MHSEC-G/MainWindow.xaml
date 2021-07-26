@@ -43,24 +43,24 @@
                         CanUserAddRows="False" AutoGenerateColumns="False" SelectionMode="Single">
                         <DataGrid.Columns>
                             <DataGridTextColumn CanUserReorder="False" CanUserResize="False" CanUserSort="True"
-                                Width="80" Foreground="Gray" IsReadOnly="True" Binding="{Binding offset, StringFormat=\{0:X4\}}"
+                                Width="80" IsReadOnly="True" Binding="{Binding offset, StringFormat=\{0:X4\}}"
                                 Header="Offset (Hex)" />
                             <DataGridTextColumn CanUserReorder="False" CanUserResize="False" CanUserSort="True"
-                                Width="80" Foreground="Gray" IsReadOnly="True" Binding="{Binding id, StringFormat=\{0:X4\}}"
+                                Width="80" IsReadOnly="True" Binding="{Binding id, StringFormat=\{0:X4\}}"
                                 Header="ID (Hex)" />
                             <DataGridTextColumn CanUserReorder="False" CanUserResize="False" CanUserSort="True"
-                                Width="100" Foreground="Gray" IsReadOnly="True"
+                                Width="*" IsReadOnly="True"
                                 Binding="{Binding name}"
                                 Header="Name" />
                             <DataGridTextColumn CanUserReorder="False" CanUserResize="False" CanUserSort="True"
-                                Width="*" Binding="{Binding count, Mode=TwoWay}"
+                                Width="50" Binding="{Binding count, Mode=TwoWay}"
                                 Header="Count" />
                         </DataGrid.Columns>
                     </DataGrid>
                     <Button x:Name="button_item_all_Copy" Content="All 986x" HorizontalAlignment="Left" Margin="10,10,0,0"
                         VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.065,-0.953" Height="30"
                         Click="button_item_all_Click" />
-                    <Button x:Name="button_item_existing_Copy" Content="Existing 999x" HorizontalAlignment="Left"
+                    <Button x:Name="button_item_existing_Copy" Content="Existing 777x" HorizontalAlignment="Left"
                         Margin="105,10,0,0" VerticalAlignment="Top" Width="90"
                         RenderTransformOrigin="0.065,-0.953" Height="30" Click="button_item_existing_Click" />
 

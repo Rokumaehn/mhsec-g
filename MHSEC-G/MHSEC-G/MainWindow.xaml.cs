@@ -105,7 +105,7 @@ namespace MHSEC_G
 
                 if (items.ElementAt((int) i).count != 0)
                 {
-                    items.ElementAt((int) i).count = 999;
+                    items.ElementAt((int) i).count = 777;
                 }
             }
         }

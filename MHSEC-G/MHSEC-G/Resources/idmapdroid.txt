@@ -104,212 +104,212 @@ F8	11	Energy Drink
 3A8	29A	H. crystal (Thunder)
 3B0	29B	H. crystal (Ice)
 3B8	29C	H. crystal (Dragon)
-3C0	125	耐火の小珠
-3C8	126	耐火の珠
-3D0	127	耐水の小珠
-3D8	128	耐水の珠
-3E0	129	耐氷の小珠
-3E8	12A	耐氷の珠
-3F0	12B	耐雷の小珠
-3F8	12C	耐雷の珠
-400	12D	耐龍の小珠
-408	12E	耐龍の珠
-410	12F	耐全の小珠
-418	130	耐全の珠
-420	131	火炎の小珠
-428	132	火炎の珠
-430	133	流水の小珠
-438	134	流水の珠
-440	135	氷結の小珠
-448	136	氷結の珠
-450	137	雷光の小珠
-458	138	雷光の珠
-460	139	破龍の小珠
-468	13A	破龍の珠
-470	13B	全属の小珠
-478	13C	全属の珠
-480	13D	攻剛の小珠
-488	13E	攻剛の珠
-490	13F	攻速の小珠
-498	140	攻速の珠
-4A0	141	攻技の小珠
-4A8	142	攻技の珠
-4B0	143	耐剛の小珠
-4B8	144	耐剛の珠
-4C0	145	耐速の小珠
-4C8	146	耐速の珠
-4D0	147	耐技の小珠
-4D8	148	耐技の珠
-4E0	149	回避の小珠
-4E8	14A	回避の珠
-4F0	14B	会心の小珠
-4F8	14C	会心の珠
-500	14D	攻撃の小珠
-508	14E	攻撃の珠
-510	14F	防御の小珠
-518	150	防御の珠
-520	153	体力の小珠
-528	154	体力の珠
-530	155	晩成雷の珠
-538	156	続異の珠
-540	157	火鱗の珠
-548	158	水鱗の珠
-550	159	氷鱗の珠
-558	15A	龍圧の珠
-560	15B	根性の珠
-568	116	草食種の目覚め
-570	117	鳥竜種の目覚め
-578	118	飛竜種の目覚め
-580	119	牙獣種の目覚め
-588	11A	獣竜種の目覚め
-590	11B	牙竜種の目覚め
-598	11C	海竜種の目覚め
-5A0	11D	鋏角種の目覚め
-5A8	11E	両生種の目覚め
-5B0	11F	古龍種の目覚め
-5B8	120	魚竜種の目覚め
-5C0	121	全種の目覚め
-5C8	1CF	熟成マタタビ
-5D0	4A4	きれいな腹袋
-5D8	1F0	黒真珠
-5E0	1D0	マタタビコイン
-5E8	1F2	ドスマタタビ
-5F0	1D1	特産キノコ
-5F8	1EF	銀色コオロギ
-600	1D2	黄金石のかけら
-608	1D3	小金魚
-610	1D4	雪花
-618	1D5	血石
-620	1D6	錦魚
-628	1D7	古代豆
-630	1DA	熱帯イチゴ
-638	1DB	竜骨結晶
-640	1DC	キングサボテン
-648	1DF	ロイヤルカブト
-650	1D8	ロイヤルハニー
-658	1DD	白銀の糸
-660	1DE	さびた破片
-668	1E3	ゴッドカブト
-670	1E2	火山椒の実
-678	1E0	燃石炭
-680	1E1	黄金骨
-688	1E4	ドスマツタケ
-690	1D9	ベニサンゴ
-698	1EB	金色コオロギ
-6A0	1E5	黄金魚
-6A8	1E7	オーロラ草
-6B0	1E6	ダイヤダスト
-6B8	1E8	永久凍骨
-6C0	1EA	厳選キノコ
-6C8	1EE	百年くるみ
-6D0	4B8	輝く腹袋
-6D8	1ED	花香石の塊
-6E0	1EC	太古のコイン
-6E8	1E9	黄金石の塊
-6F0	1F3	古文書の切れ端
-6F8	1F4	迷宮踏破の印章
-700	1F1	ビンの王冠
-708	2E9	ちぎれたクサリ
-710	2EA	プロトバイザー
-718	2EB	さびた首輪
-720	2EC	マネルガーメイル
-728	2ED	黒金のプロテクタ
-730	2EE	なぞの水晶
-738	2EF	ハイメタ甲冑
-740	2F0	超合金アーマー
-748	2F1	天上天下無双甲
-750	2F2	澄んだ小粒ナミダ
-758	2F3	清らかなナミダ
-760	2F4	清澄な大粒ナミダ
-768	210	ウォーミル麦
-770	22A	シモフリトマト
-778	23D	キングトリュフ
-780	23E	ウツクシメジ
-788	253	ハニーバター
-790	254	ツチハチノコ
-798	265	スパイスワーム
-7A0	266	米虫
-7A8	283	彗星岩塩
-7B0	2AF	サシミウオ
-7B8	2B0	女王エビ
-7C0	2B3	マグロザメ
-7C8	2C5	生肉
-7D0	2C6	ポポノタン
-7D8	4AB	竜ガラ
-7E0	20F	ネンチャク草
-7E8	20E	ツタの葉
-7F0	20D	火薬草
-7F8	211	落陽草の花
-800	212	サボテンの花
-808	252	ハチミツ
-810	23A	アオキノコ
-818	23C	ニトロダケ
-820	23F	毒テングダケ
-828	23B	マンドラゴラ
-830	229	ペイントの実
-838	227	ウチケシの実
-840	228	龍殺しの実
-848	A8	ペピポパンプキン
-850	280	氷結晶
-858	279	鉄鉱石
-860	27A	大地の結晶
-868	27B	シーブライト鉱石
-870	27C	マカライト鉱石
-878	284	ライトクリスタル
-880	27D	ドラグライト鉱石
-888	27E	フルクライト鉱石
-890	285	ベアライト石
-898	282	アイシスメタル
-8A0	27F	紅蓮石
-8A8	281	ノヴァクリスタル
-8B0	286	カブレライト鉱石
-8B8	287	ユニオン鉱石
-8C0	288	獄炎石
-8C8	2B1	キレアジ
-8D0	2B2	眠魚
-8D8	2B4	カジキマグロ
-8E0	269	クモの巣
-8E8	25F	にが虫
-8F0	261	光蟲
-8F8	260	不死虫
-900	263	雷光虫
-908	264	虫の死骸
-910	26A	セッチャクロアリ
-918	262	キラビートル
-920	26B	ドスヘラクレス
-928	267	王族カナブン
-930	268	マレコガネ
-938	2D1	竜の爪牙
-940	48E	獣骨
-948	48C	竜骨【小】
-950	48D	竜骨【中】
-958	4A8	竜骨【大】
-960	4A9	上竜骨
-968	4AA	いにしえの龍骨
-970	2E7	竜石
-978	2E8	竜玉
-980	2D3	鳴き袋
-988	2D5	毒袋
-990	2D6	猛毒袋
-998	2D7	マヒ袋
-9A0	2D8	強力マヒ袋
-9A8	2D9	睡眠袋
-9B0	2DA	昏睡袋
-9B8	2DB	爆破袋
-9C0	2DC	大爆破袋
-9C8	2DD	火炎袋
-9D0	2DE	爆炎袋
-9D8	2DF	水袋
-9E0	2E0	大水袋
-9E8	2E3	氷結袋
-9F0	2E4	凍結袋
-9F8	2E1	電気袋
-A00	2E2	電撃袋
-A08	2E5	封龍核
-A10	2E6	滅龍核
-A18	4C1	古龍の血
-A20	4AC	ケルビの角
-A28	492	アプトノスの尻尾
+3C0	125	Fire Res Bead
+3C8	126	Fire Res Jewel
+3D0	127	Water Res Bead 
+3D8	128	Water Res Jewel
+3E0	129	Ice Res Bead
+3E8	12A	Ice Res Jewel
+3F0	12B	Thunder Res Bead
+3F8	12C	Thunder Res Jewel
+400	12D	Dragon Res Bead
+408	12E	Dragon Res Jewel
+410	12F	All Res Bead
+418	130	All Res Jewel
+420	131	Flaming Bead
+428	132	Flaming Jewel
+430	133	Torrent Bead
+438	134	Torrent Jewel
+440	135	Frigid Bead
+448	136	Frigid Jewel
+450	137	Flashing Bead
+458	138	Flashing Jewel
+460	139	Draconic Bead
+468	13A	Draconic Jewel
+470	13B	All-Element Bead
+478	13C	All-Element Jewel
+480	13D	Power Bead
+488	13E	Power Jewel
+490	13F	Speed Bead
+498	140	Speed Jewel
+4A0	141	Tech Bead
+4A8	142	Tech Jewel
+4B0	143	Power Res Bead
+4B8	144	Power Res Jewel
+4C0	145	Speed Res Bead
+4C8	146	Speed Res Jewel
+4D0	147	Tech Res Bead
+4D8	148	Tech Res Jewel
+4E0	149	Evasion Bead
+4E8	14A	Evasion Jewel
+4F0	14B	Critical Bead
+4F8	14C	Critical Jewel
+500	14D	Attack Bead
+508	14E	Attack Jewel
+510	14F	Defense Bead
+518	150	Defense Jewel
+520	153	Health Bead
+528	154	Health Jewel
+530	155	Latent Thunder Jewel
+538	156	Abnormal Jewel
+540	157	Fire Scale Jewel
+548	158	Water Scale Jewel
+550	159	Ice Scale Jewel
+558	15A	Dragon Aura Jewel
+560	15B	Tenacity Jewel
+568	116	Herbivore Stim
+570	117	Bird Wyvern Stim
+578	118	Flying Wyvern Stim
+580	119	Fanged Beast Stim
+588	11A	Brute Wyvern Stim
+590	11B	Fanged Wyvern Stim
+598	11C	Leviathan Stim
+5A0	11D	Tmnocrn Stim
+5A8	11E	Amphibian Stim
+5B0	11F	Eld Drgn Stim
+5B8	120	Piscine Wyvern Stim
+5C0	121	Universal Stim
+5C8	1CF	Aged Felvine
+5D0	4A4	Fine Stomach
+5D8	1F0	Black Paerl
+5E0	1D0	Felvine Coin
+5E8	1F2	Grand Felvine
+5F0	1D1	Unique Mushroom
+5F8	1EF	Silver Cricket
+600	1D2	Auristone Piece
+608	1D3	Small Goldenfish
+610	1D4	Snowflower
+618	1D5	Bloodstone
+620	1D6	Brocadefish
+628	1D7	Ancient Beans
+630	1DA	Tropical Berry
+638	1DB	Crystal Bone
+640	1DC	King Cactus
+648	1DF	Royal Rhino
+650	1D8	Royal Honey
+658	1DD	Silver Spidersilk
+660	1DE	Rusted Fragment
+668	1E3	Divine Rhino
+670	1E2	Volcanic Pepper
+678	1E0	Coal
+680	1E1	Golden Bone
+688	1E4	Great Shroom
+690	1D9	Crimson Coral
+698	1EB	Gold Cricket
+6A0	1E5	Goldenfish
+6A8	1E7	Aurora Grass
+6B0	1E6	Diamond Dust
+6B8	1E8	Icebound Bone
+6C0	1EA	Choice Mushroom
+6C8	1EE	Century Walnut
+6D0	4B8	Luminous Stomach
+6D8	1ED	Balmstone Chunk
+6E0	1EC	Ancient Coin
+6E8	1E9	Auristone Chunk
+6F0	1F3	Timeworn Page
+6F8	1F4	Mazewalker's Seal
+700	1F1	Bottle Cap
+708	2E9	Torn Chains
+710	2EA	Protovisor
+718	2EB	Rusted Collar
+720	2EC	Manelger Mail
+728	2ED	Blackgold Protector
+730	2EE	Mysterious Crystal
+738	2EF	High Metal Armor
+740	2F0	Gold Alloy Armor
+748	2F1	Invincible Armor
+750	2F2	Translucent Tear
+758	2F3	Pure Tear
+760	2F4	Pristine Tear
+768	210	Woemill Wheat
+770	22A	Fatty Tomato
+778	23D	King Truffle
+780	23E	Beauty Shroom
+788	253	Honey Butter
+790	254	Snakebee Larva
+798	265	Spicy Worm
+7A0	266	Ricebug
+7A8	283	Comet Salt
+7B0	2AF	Sushifish
+7B8	2B0	Queen Shrimp
+7C0	2B3	Shartuna
+7C8	2C5	Raw Meat
+7D0	2C6	Popo Tongue
+7D8	4AB	Wyvern Carcass
+7E0	20F	Sap Plant
+7E8	20E	Ivy
+7F0	20D	Fire Herb
+7F8	211	Gloamgrass Bud
+800	212	Cactus Flower
+808	252	Honey
+810	23A	Blue Mushroom
+818	23C	Nitroshroom
+820	23F	Toadstool
+828	23B	Dragon Toadstool
+830	229	Paintberry
+838	227	Nulberry
+840	228	Dragonfell Berry
+848	A8	Bumblepumpkin
+850	280	Ice Crystal
+858	279	Iron Ore
+860	27A	Earth Crystal
+868	27B	Pelagicite Ore
+870	27C	Malachite Ore
+878	284	Lightcrystal
+880	27D	Dragonite Ore
+888	27E	Yoldspar Ore
+890	285	Bealite Ore
+898	282	Isisium
+8A0	27F	Firestone
+8A8	281	Novacrystal
+8B0	286	Carbalite Ore
+8B8	287	Fucium Ore
+8C0	288	Firecell Stone
+8C8	2B1	Whetfish
+8D0	2B2	Sleepyfish
+8D8	2B4	Speartuna
+8E0	269	Spider Web
+8E8	25F	Bitterbug
+8F0	261	Flashbug
+8F8	260	Godbug
+900	263	Thunderbug
+908	264	Insect Husk
+910	26A	Carpenterbug
+918	262	Shiny Beetle
+920	26B	Hercudrome
+928	267	King Scarab
+930	268	Rare Scarab
+938	2D1	Wyvern Barbs
+940	48E	Brute Bone
+948	48C	Monster Bone S
+950	48D	Monster Bone M
+958	4A8	Monster Bone L
+960	4A9	Monster Bone+
+968	4AA	Dragonbone Relic
+970	2E7	Wyvern Stone
+978	2E8	Wyvern Gem
+980	2D3	Screamer Sac
+988	2D5	Poison Sac
+990	2D6	Toxin Sac
+998	2D7	Paralysis Sac
+9A0	2D8	Debilitation Sac
+9A8	2D9	Sleep Sac
+9B0	2DA	Coma Sac
+9B8	2DB	Blast Sac
+9C0	2DC	Explosion Sac
+9C8	2DD	Flame Sac
+9D0	2DE	Inferno Sac
+9D8	2DF	Aqua Sac
+9E0	2E0	Torrent Sac
+9E8	2E3	Frost Sac
+9F0	2E4	Freezer Sac
+9F8	2E1	Electro Sac
+A00	2E2	Thunder Sac
+A08	2E5	Whelp Core
+A10	2E6	Dragon Core
+A18	4C1	Elder Dragon Blood
+A20	4AC	Kelbi Horn
+A28	492	Aptonoth Tail
 A30	493	ポポの毛皮
 A38	4AD	アプケロスの甲殻
 A40	491	垂皮竜の皮
